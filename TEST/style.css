@@ -1,0 +1,150 @@
+.main{
+    padding-top: 5%;
+    display: flex;
+}
+.VerticalTabDiv{
+    background-color: rgb(248, 248, 248);
+    padding: 2% 2%;
+    padding-right: 80px;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+}
+.verticalImage{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    padding: 2%;
+}
+.navigationHeading{
+    color: rgb(189, 187, 187);
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px ;
+}
+.nav-link {
+    display: block;
+    padding-left: 0px !important;
+    color: grey !important;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 13px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+.Payment{
+    color: rgb(83, 83, 83) !important;
+    font-weight: 800 !important;
+}
+.icons{
+    margin-right: 5px;
+}
+.VerticalFlagImage{
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.secondDiv {
+    padding: 0% 3%;
+    width: 80%;
+}
+.navPayment{
+    font-weight: 800;
+    color: rgb(83, 83, 83) ;
+}
+.navLink{
+    display: none !important;
+}
+.NavImage{
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+}
+button.btn.btn-outline-dark {
+    margin-right: 8px;
+}
+.buttonContainer {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding-top: 2%;
+}
+.NewtemplateHeading{
+    font-size: 12px;
+}
+.tabsDiv {
+    background-color: rgb(248, 248, 248);
+    padding: 1% 2%;
+    border-radius: 4%;
+    width: 40%;
+}
+.NavButtons {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    padding: 2% 0% !important;
+}
+.activeButton{
+    background-color: black !important;
+    color: white !important;
+    padding: 1% 2% !important;
+}
+.LinkText{
+    color: white !important;
+}
+.paymentOptionsMainDiv {
+    padding: 2% 0%;
+    display: flex;
+    flex-direction: column;
+}
+.paymentOptionDivContainer{
+    display: flex;
+    flex-direction: column;
+}
+.paymentOptionsDv{
+    display: flex;
+    flex-direction: row;
+}
+.options {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid lightgray;
+    align-items: center;
+    padding: 1% 2%;
+    border-radius: 11px;
+    WIDTH: 30%;
+    height: 88px;
+    margin-right: 21px;
+    margin-top: 2%;
+}   
+.optionsImage{
+    height: 25px ;
+    width: 25px;
+    border-radius: 100%;
+}
+h3.TransferText {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0px;
+    margin-left: 10px;
+}
+p.contactsText {
+    margin: 0px;
+    font-size: 10px;
+    color: gray;
+    font-weight: 700;
+    margin-left: 10px;
+    padding-right: 17%;
+}   
+h8.paymentOptionsHeading {
+    font-weight: 800;
+    margin-bottom: 13px;
+    padding-top: 4%;
+}
+.optionDiv {
+    border-radius: 11px;
+    margin-right: 10px;
+    border: none !important;
+    box-shadow: 1 2 black;
+    box-shadow: 22px 15px 33px -16px;
+}
